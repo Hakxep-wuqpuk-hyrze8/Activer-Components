@@ -1,11 +1,27 @@
 import React from "react";
-import './index.css'
-import ButtonFrame, { buttonStyle } from "./ButtonFrame";
+import './index.css';
 
-function Button() {
+type Props = {
+  buttonStyle: string;  
+};
+
+export const allButtonStyle = {
+  primary: 'primary',
+  secondary: 'secondary',
+  primaryOutline: 'primaryOutline',
+  secondaryOutline: 'secondaryOutline',
+  inputFormButton: 'inputFormButton'
+};
+
+function ButtonFrame({ buttonStyle } : Props) {
   return (
-    <ButtonFrame style={buttonStyle.primaryOutline} />
+    <button
+      className={`button button--${buttonStyle || allButtonStyle.primary}`}
+      type="button"
+    >
+    Button
+    </button>
   )
 }
 
-export default Button;
+export default ButtonFrame;

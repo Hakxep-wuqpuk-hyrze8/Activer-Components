@@ -1,0 +1,31 @@
+.inputSection {
+  width: 589px;
+  height: 88px;
+  font-size: 24px;
+  display: flex;
+}
+
+.inputSection--default,
+.inputSection--withButton,
+.inputSection--withoutLabel {
+  width: 589px;
+  height: 88px;
+  border: 1px solid #A5A5A5;
+  border-radius: 15px;
+  padding: 13px 10px 13px 54px;
+}
+
+.inputSection__button {
+  position: absolute;
+  left: 433px;
+  align-self: center;
+}
+
+.inputSection--disabled {
+  opacity: 0.5;
+  width: 589px;
+  height: 88px;
+  border: 1px solid #A5A5A5;
+  border-radius: 15px;
+  padding: 13px 10px 13px 54px;
+}/*# sourceMappingURL=inputSection.css.map */

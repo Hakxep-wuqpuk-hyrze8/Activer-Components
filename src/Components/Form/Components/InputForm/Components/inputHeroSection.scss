@@ -1,0 +1,16 @@
+$_border-color: #A5A5A5;
+
+.inputHeroSection {
+  width: 598px;
+  height: 198px;
+}
+
+@mixin inputSection--base {
+  border: 1px solid $_border-color;
+  border-radius: 15px;
+  padding: 23px 10px 13px 54px;
+}
+
+.inputHeroSection--style {
+  @include inputSection--base();
+}

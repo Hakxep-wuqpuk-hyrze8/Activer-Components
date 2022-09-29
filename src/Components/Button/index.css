@@ -46,4 +46,18 @@
   border: 2px #699FF1 solid;
   background-color: #B0CDF9;
   color: #699FF1;
+}
+.button--inputFormButton {
+  width: 108.74px;
+  height: 41.36px;
+  padding: 0;
+  border: 1px #699FF1 solid;
+  background-color: #fff;
+  font-size: 15.32px;
+  color: #699FF1;
+}
+.button--inputFormButton:hover {
+  border: 2px #699FF1 solid;
+  background-color: #B0CDF9;
+  color: #699FF1;
 }/*# sourceMappingURL=index.css.map */

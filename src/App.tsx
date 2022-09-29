@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
-import Button from './Components/Button';
+import ButtonFrame, { allButtonStyle } from './Components/Button';
 import Label from './Components/Label';
 import InputForm from './Components/Form/Components/InputForm'
+import FormDropdown from './Components/Form/Components/FromDropdown';
 
 function App() {
   return (
     <>
-      <Button />
+      <ButtonFrame buttonStyle={allButtonStyle.primary}/>
       <hr />
       <Label />
       <hr /> 
       <InputForm />
+      <hr />
+      <FormDropdown />
     </>
   );
 }

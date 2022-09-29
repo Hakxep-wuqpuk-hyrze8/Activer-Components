@@ -1,12 +1,9 @@
 import React from "react";
-import './index.css'
+import InputFormFrame, { inputFormStyle } from "./InputFormFrame";
 
 function InputForm() {
   return (
-    <div className="InputForm InputForm--style">
-      <label className="InputForm__title">InputLabel</label>
-      <input className="InputForm__inputSection InputForm__inputSection--style" type="text" placeholder="Input Placeholder" />
-    </div>
+    <InputFormFrame formStyle={inputFormStyle.disabled} />    
   );
 }
 
