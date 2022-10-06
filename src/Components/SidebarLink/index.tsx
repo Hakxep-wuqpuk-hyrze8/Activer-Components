@@ -1,8 +1,8 @@
 import React from "react";
-import './index.css'
+import './index.scss'
 import { BsGearFill } from "react-icons/bs";
 
-function Label() {
+function SidebarLink() {
   return (
     <label className="label label--style">
       <BsGearFill className="label__icon label__icon--style" />
@@ -11,4 +11,4 @@ function Label() {
   )
 }
 
-export default Label;
+export default SidebarLink;

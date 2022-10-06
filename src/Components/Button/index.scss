@@ -25,12 +25,12 @@ $_button-fontSize: 20px;
 .button {
   width: 141px;
   height: 54px;
-  @include button--base;
-  //test
+  // test
   margin: 20px;
+  @include button--base;
 
   &--primary {
-    border: 0;
+    border: 2px $_primary-color solid;
     background-color: $_primary-color;
     color: #fff;
     
@@ -39,7 +39,7 @@ $_button-fontSize: 20px;
     }
   }
   &--secondary {
-    border: 0;
+    border: 2px $_secondary-color solid;
     background-color: $_secondary-color;
     color: #fff;
     

@@ -1,5 +1,5 @@
 import React from "react";
-import './inputHeroSection.css';
+import './inputHeroSection.scss';
 
 function InputHeroSection() {
   return (

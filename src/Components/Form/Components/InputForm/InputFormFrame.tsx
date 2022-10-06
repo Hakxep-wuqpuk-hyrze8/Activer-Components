@@ -1,5 +1,5 @@
 import React from "react";
-import './index.css'
+import './InputFormFrame.scss'
 import InputLabel from "./Components/inputLabel";
 import InputSection from "./Components/inputSection";
 import InputHeroSection from "./Components/inputHeroSection";
@@ -8,7 +8,7 @@ type Props = {
   formStyle: string;
 };
 
-export const inputFormStyle = {
+export const allInputFormStyle = {
   default: 'default',
   heroForm: 'heroForm',
   disabled: 'disabled',

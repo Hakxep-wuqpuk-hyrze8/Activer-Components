@@ -1,14 +1,22 @@
 $_primary-color: #4A4949;
 
 .inputLabel {
-  width: 174px;
-  height: 40px;
-  font-size: 32px;
   position: absolute;
   left: 14px;
   top: -20px;
-  text-align: center;
+  
+  width: 174px;
+  height: 40px;
+
   background-color: #FFF;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
   z-index: 1;
 }
 

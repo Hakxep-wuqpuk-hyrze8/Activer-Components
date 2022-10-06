@@ -1,0 +1,31 @@
+
+
+.card {
+  width: 298px;
+  height: 375px;
+  padding: 26px 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  // test
+  margin: 20px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset -2px -4px 6px rgba(153, 153, 153, 0.25);
+  border-radius: 11px;
+}
+
+.card__image {
+  width: 211px;
+  height: 201px;
+
+  border: 1px solid #4A4949;
+  border-radius: 11px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+

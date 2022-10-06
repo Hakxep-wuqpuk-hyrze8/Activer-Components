@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonFrame, { allButtonStyle } from "../../../../Button";
-import './inputSection.css';
+import './inputSection.scss';
 
 type Props = {
   inputSectionStyle: string;

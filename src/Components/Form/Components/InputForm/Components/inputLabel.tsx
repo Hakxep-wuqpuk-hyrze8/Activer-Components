@@ -1,5 +1,5 @@
 import React from "react";
-import './inputLabel.css'
+import './inputLabel.scss'
 
 type Props = {
   labelStyle: string
